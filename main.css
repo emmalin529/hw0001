@@ -1,14 +1,43 @@
-
-blockquote { color: blue ; }
-h1 { color: rgba(0,0,0,0.5); }
-td[rowspan="2"]{ color: #fff; }
-strong { color: #00f; color: #f00;}
-p { color: navy } 
-
-blockquote { 
-  color: #fff ;
-  background-color: lightblue;
+blockquote {
+    color: blue;
 }
-body { 
-  font-family: DFKai-SB, BiauKai, arial;
+
+h1 {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+td[rowspan="2"] {
+    color: #49709d;
+}
+
+strong {
+    color: #00f;
+    color: #f00;
+}
+
+p {
+    color: navy
+}
+
+blockquote {
+    color: #fff;
+    background-color: lightblue;
+}
+
+body {
+    font-family: DFKai-SB, BiauKai, arial;
+}
+
+blockquote,
+td[colspan="2"] {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+td[rowspan="2"] {
+    text-align: center;
+    letter-spacing: 1em;
+}
+p{
+    line-height: 2em;
 }
